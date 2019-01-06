@@ -1,0 +1,18 @@
+body {
+    
+}
+.home-body{
+
+}
+.home-body>p{
+    font-size: 24px;
+}
+.home-body>h1{
+    font-size: 60px;
+}
+.images{
+    opacity: 0.25;
+}
+div:hover>.images{
+    opacity: 0.9;
+}
