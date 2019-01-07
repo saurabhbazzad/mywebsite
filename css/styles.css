@@ -11,7 +11,7 @@ body {
     font-size: 60px;
 }
 .images{
-    opacity: 0.25;
+    opacity: 0.7;
 }
 div:hover>.images{
     opacity: 0.9;
@@ -50,5 +50,25 @@ div.col-7>div{
 }
 .card{
     border-radius:0px;
-
+}
+p.card-text.col-6 {
+    color: rgba(0,0,60,0.7);
+    font-size: larger;
+    font-weight: bolder;
+}
+h1.card-title {
+    color: rgba(0,0,60,0.7);
+}
+div:hover div.home-body h1{
+    color: rgba(0,0,60,0.9)
+}
+div:hover div.home-body p{
+    color:rgba(0,0,60,0.9)
+}
+a{
+    color: antiquewhite;
+}
+a:hover{
+    color: antiquewhite;
+    font-weight: bolder;
 }
