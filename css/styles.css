@@ -109,8 +109,110 @@ div#projects-body {
     color: rgba(235, 100, 60, 0.9)
 }
 #journey-par div>h1{
-    
+    font-family: sans-serif
 }
 #journey-par div.card{
     border: 0;
 }
+#journey-par img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7
+}
+#journey-par:hover img{
+    width: 100%;
+    height: 100%;
+    opacity: 1
+}
+.js1{
+    color: white;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+.js2{
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.js3{
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+#journey-par:hover span{
+    color: wheat;
+}
+#journey-par p{
+    margin-top: 0.7rem;
+    margin-left: 3rem 
+}
+#journey-par>div.row{
+    background-color: rgba(105, 105, 105,0.7)
+}
+#journey-par:hover>div.row{
+    background-color: dimgray;
+}
+#journey-par:hover div>h1{
+    font-weight: 700;
+    font-size: 2.9rem;
+}
+
+
+#contact div>div{
+    margin-top: 5rem;
+}
+#contact img{
+    opacity: 0.45;
+}
+#contact:hover img{
+    opacity:0.75;
+}
+#contact div div>div{
+    color: rgba(0, 0, 0,0.4);
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+#contact div div>h1{
+    color: rgba(0, 0, 0,0.4);
+    font-size: 4.5rem;
+}
+#contact:hover div div>div{
+    color: rgba(0, 0, 0, 1)
+}
+#contact:hover div div>h1{
+    color: rgba(0, 0, 0, 1)
+}
+
+
+#connect-icons>span{
+    margin: 1.2rem;
+}
+.conn{
+    font-size: 5rem;
+}
+#fb:hover{
+    color: blue;
+}
+#insta:hover{
+    color: red;
+}
+#twi:hover{
+    color: lightblue;
+}
+#linkedin:hover{
+    color: lightskyblue;
+}
+#ptrest:hover{
+    color: red;
+}
+#rss:hover{
+    color: orangered;
+}
+#snapc:hover{
+    color: yellow;
+}
+#whatsapp:hover{
+    color: green;
+}
+
+
