@@ -16,37 +16,16 @@ body{
 div:hover>.images{
     opacity: 0.9;
 }
-#java{
-    width: 80%;
-    height: 20px;
-}
-#python{
-    width: 60%;
-    height: 20px;
-}
-#js{
-    width: 45%;
-    height: 20px;
-}
-#html{
-    width: 80%;
-    height: 20px;
-}
-#css{
-    width: 65%;
-    height: 20px;
-}
-.pg-container{
-    padding-left: 0px;
-    padding-right: 0px;
-    height: 20px;
-}
+
 div.col-7>div{
     margin-top: 32px !important;
 }
 .container-fluid{
     padding-right: 0px;
     padding-left: 0px;
+}
+.nav-tabs{
+    
 }
 .card{
     border-radius:0px;
@@ -72,6 +51,42 @@ a:hover{
     color: antiquewhite;
     font-weight: bolder;
 }
+#skills img{
+    width: 100%;
+    height: 100%;
+}
+#skillsimg{
+    padding-right: 0;
+    padding-left: 0;
+}
+.skills-list{
+    color: rgba(0, 0, 0, 0.35);
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+#skills:hover .skills-list{
+    color: rgba(0, 0, 0, 0.75)
+}
+.progress{
+    height: 1.8rem;
+}
+#skills h1{
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.35)
+}
+#skills:hover h1{
+    color: rgba(0, 0, 0, 0.75)
+}
+#skills .progress-bar{
+    background-color: rgba(0,123,255,0.5)
+}
+#skills:hover .progress-bar{
+    background-color: rgba(0,123,255,0.85)
+}
+.pg-bar div.progress{
+    padding-right: 0;
+    padding-left: 0;
+}
 #projects-body>h1{
     font-size: 5rem;
     color: rgba(0,0,0,0.6);
@@ -91,6 +106,7 @@ opacity: 0.8
 }
 #projects-body ul{
     list-style-type: none;
+    margin-bottom: 3.5rem;
 }
 div#projects-body {
     background-color: aliceblue;
@@ -155,6 +171,15 @@ div#projects-body {
 #journey-par:hover div>h1{
     font-weight: 700;
     font-size: 2.9rem;
+}
+#journey-par div.row >div{
+    
+}
+.card-img{
+    border-radius: 0;
+}
+.card{
+    border: 0px;
 }
 
 
