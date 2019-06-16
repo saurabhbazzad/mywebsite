@@ -9,11 +9,16 @@ a{
 }
 
 
+.navbar-dark .navbar-nav .active>.nav-link{
+    color:rgba(255,255,255,0.5)
+}
 
 
 
 
-
+.my-nav-bar-background{
+    background-color: transparent;
+}
 
 
 
