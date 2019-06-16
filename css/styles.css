@@ -1,243 +1,69 @@
-body{
-   
-}
-.home-body{
-
-}
-.home-body>p{
-    font-size: 24px;
-}
-.home-body>h1{
-    font-size: 60px;
-}
-.images{
-    opacity: 0.7;
-}
-div:hover>.images{
-    opacity: 0.9;
+a{
+    text-decoration: none;
+    color: white
 }
 
-div.col-7>div{
-    margin-top: 32px !important;
-}
 .container-fluid{
     padding-right: 0px;
-    padding-left: 0px;
-}
-.nav-tabs{
-    
-}
-.card{
-    border-radius:0px;
-}
-p.card-text.col-6 {
-    color: rgba(0,0,60,0.7);
-    font-size: larger;
-    font-weight: bolder;
-}
-h1.card-title {
-    color: rgba(0,0,60,0.7);
-}
-div:hover div.home-body h1{
-    color: rgba(0,0,60,0.9)
-}
-div:hover div.home-body p{
-    color:rgba(0,0,60,0.9)
-}
-a{
-    color: antiquewhite;
-}
-a:hover{
-    color: antiquewhite;
-    font-weight: bolder;
-}
-#skills img{
-    width: 100%;
-    height: 100%;
-}
-#skillsimg{
-    padding-right: 0;
-    padding-left: 0;
-}
-.skills-list{
-    color: rgba(0, 0, 0, 0.35);
-    font-weight: 800;
-    font-size: 1.8rem;
-}
-#skills:hover .skills-list{
-    color: rgba(0, 0, 0, 0.75)
-}
-.progress{
-    height: 1.8rem;
-}
-#skills h1{
-    font-size: 4rem;
-    color: rgba(0, 0, 0, 0.35)
-}
-#skills:hover h1{
-    color: rgba(0, 0, 0, 0.75)
-}
-#skills .progress-bar{
-    background-color: rgba(0,123,255,0.5)
-}
-#skills:hover .progress-bar{
-    background-color: rgba(0,123,255,0.85)
-}
-.pg-bar div.progress{
-    padding-right: 0;
-    padding-left: 0;
-}
-#projects-body>h1{
-    font-size: 5rem;
-    color: rgba(0,0,0,0.6);
-    font-family: cursive;
-    font-weight: 600;
-}
-#projects-par:hover h1{
-    color:rgba(0, 0, 0,0.9)
-}
-#projects-par img{
-opacity: 0.5;
-width: 100%;
-height: 100%;
-}
-#projects-par:hover img{
-opacity: 0.8
-}
-#projects-body ul{
-    list-style-type: none;
-    margin-bottom: 3.5rem;
-}
-div#projects-body {
-    background-color: aliceblue;
-}
-#projects-body ul h3{
-    color: rgba(255, 127, 80, 0.7);
-}
-#projects-par:hover ul h3{
-    color: rgba(255, 127, 80, 0.9)
-}
-#projects-body ul p{
-    color: rgba(235, 100, 60, 0.7);
-    font-weight: 400;
-}
-#projects-par:hover ul p{
-    color: rgba(235, 100, 60, 0.9)
-}
-#journey-par div>h1{
-    font-family: sans-serif
-}
-#journey-par div.card{
-    border: 0;
-}
-#journey-par img{
-    width: 100%;
-    height: 100%;
-    opacity: 0.7
-}
-#journey-par:hover img{
-    width: 100%;
-    height: 100%;
-    opacity: 1
-}
-.js1{
-    color: white;
-    font-weight: 900;
-    font-size: 1.7rem;
-}
-.js2{
-    color: white;
-    font-weight: 700;
-    font-size: 1.4rem;
-}
-.js3{
-    color: white;
-    font-weight: 600;
-    font-size: 1.3rem;
-}
-#journey-par:hover span{
-    color: wheat;
-}
-#journey-par p{
-    margin-top: 0.7rem;
-    margin-left: 3rem 
-}
-#journey-par>div.row{
-    background-color: rgba(105, 105, 105,0.7)
-}
-#journey-par:hover>div.row{
-    background-color: dimgray;
-}
-#journey-par:hover div>h1{
-    font-weight: 700;
-    font-size: 2.9rem;
-}
-#journey-par div.row >div{
-    
-}
-.card-img{
-    border-radius: 0;
-}
-.card{
-    border: 0px;
+    padding-left: 0px
 }
 
 
-#contact div>div{
-    margin-top: 5rem;
-}
-#contact img{
-    opacity: 0.45;
-}
-#contact:hover img{
-    opacity:0.75;
-}
-#contact div div>div{
-    color: rgba(0, 0, 0,0.4);
-    font-size: 2.2rem;
-    font-weight: 700;
-}
-#contact div div>h1{
-    color: rgba(0, 0, 0,0.4);
-    font-size: 4.5rem;
-}
-#contact:hover div div>div{
-    color: rgba(0, 0, 0, 1)
-}
-#contact:hover div div>h1{
-    color: rgba(0, 0, 0, 1)
-}
 
 
-#connect-icons>span{
-    margin: 1.2rem;
-}
-.conn{
-    font-size: 5rem;
-}
-#fb:hover{
-    color: blue;
-}
-#insta:hover{
-    color: red;
-}
-#twi:hover{
-    color: lightblue;
-}
-#linkedin:hover{
-    color: lightskyblue;
-}
-#ptrest:hover{
-    color: red;
-}
-#rss:hover{
-    color: orangered;
-}
-#snapc:hover{
-    color: yellow;
-}
-#whatsapp:hover{
-    color: green;
-}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#conn-ig{
+
+}
+#conn-ig:hover{
+    color:black
+}
+#conn-fb{
+
+}
+#conn-fb:hover{
+    color:cornflowerblue
+}
+#conn-tw{
+
+}
+#conn-tw:hover{
+    color:lightblue
+}
+#conn-ln{
+
+}
+#conn-ln:hover{
+    color: darkblue
+}
+#conn-yt{
+
+}
+#conn-yt:hover{
+    color:red
+}
+#conn-bg{
+
+}
+#conn-bg:hover{
+    color:burlywood
+}
