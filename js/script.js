@@ -16,4 +16,5 @@ window.onload=function(){
         $(this).removeClass('bg-dark text-light')
     })
 
+
 }

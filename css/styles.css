@@ -28,8 +28,20 @@ a{
 }
 
 
+#skills-container-div{
+    margin-right: 0px;
+    margin-left: 0px
+}
 
-
+#top-nav-bar-ul{
+    border-bottom: 2px solid white
+}
+#top-nav-bar-ul li:hover{
+    
+}
+#top-nav-bar-ul li:hover a{
+    color:white
+}
 
 
 .typed-cursor{

@@ -36,18 +36,29 @@
 </head>
 <body>
     <!--Home-->
-    <div class="card bg-dark text-white">
-            <img src="./img/img.jpeg" class="card-img" alt="...">
+    <div class="card bg-dark text-white container-fluid">
+            <img 
+            srcset="./img/img.jpeg 992w,
+                    ./img/im1.jpg 200w"
+            sizes="(min-width: 992px) ,
+                    (max-width: 991px)"
+            src="./img/im1.jpg" class="card-img"  alt="...">
+            <!--
+            <picture>
+                <source media="(992px)" srcset="./img/img.jpeg" class="img-card">
+                <source media="(1px)" srcset="./img/im1.jpeg" class="img-card">
+            </picture>
+            -->
             <div class="card-img-overlay">
 
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top col-12">
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" 
                     data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" 
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="top-nav-bar-ul">
                         <li class="nav-item active ml-auto">
                             <a class="nav-link font-weight-bold mx-1 lead" href="#">Home<span class="sr-only"></span></a>
                         </li>
@@ -81,7 +92,7 @@
     </div>
     <div class="container-fluid text-dark bg-light pt-4">
         <h2 class="text-center">Amazing Things I Do</h2>
-        <div class="row">
+        <div class="row" id="skills-container-div">
             <!--Client Side Div-->
             <div class="col-12 col-md-6 skills-div skills-div-2">
                 <div class="text-center my-4">
@@ -97,8 +108,9 @@
                         <br>| HandlebarsJS | EJS</span>
                     
                 </p>
-            <!--Server Side Div-->
             </div>
+
+            <!--Server Side Div-->
             <div class="col-12 col-md-6 skills-div skills-div-2">
                 <div class="text-center my-4">
                     <span class="fas fa-server fa-5x"></span>
@@ -113,10 +125,11 @@
                     <br>
                     <b>Unit Testing </b><span>Mocha | Chai</span>
                     <br>
-                    <b>Authentication </b><span>OAuth | JWT | JWE | PassportJS</span>
+                    <b>Authentication </b><span>OAuth2 | JWT | JWE | PassportJS</span>
                     
                 </p>
             </div>
+
             <!--Artificial Intelligence Div-->
             <div class="col-12 col-md-6 skills-div skills-div-2">
                 <div class="text-center my-4">
@@ -133,6 +146,7 @@
                     <b>Deep Learning </b><span>Artificial Neural Network | Convolutional Neural Network</span>
                 </p>
             </div>
+
             <!--Miscellaneous Div-->
             <div class="col-12 col-md-6 skills-div skills-div-2">
                 <div class="text-center my-4">
@@ -149,6 +163,7 @@
                     <b>RASPI </b><span>Python | JavaScript</span>
                 </p>
             </div>
+
         </div>
     </div>
     <!--/About Me-->
