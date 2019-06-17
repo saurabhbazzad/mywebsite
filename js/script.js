@@ -16,5 +16,14 @@ window.onload=function(){
         $(this).removeClass('bg-dark text-light')
     })
 
-
+    let meri_image=$('#meri-image')
+    window.onresize=function(){
+        let width=window.innerWidth
+        if(width<728&&meri_image.attr('src')=="./img/img.jpeg"){
+            meri_image.attr('src',"./img/im1.jpg")
+        }
+        if(width>728&&meri_image.attr('src')=="./img/im1.jpg"){
+            meri_image.attr('src',"./img/img.jpeg")
+        }
+    }
 }

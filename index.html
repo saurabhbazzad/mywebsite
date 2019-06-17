@@ -37,18 +37,16 @@
 <body>
     <!--Home-->
     <div class="card bg-dark text-white container-fluid">
-            <img 
-            srcset="./img/img.jpeg 992w,
-                    ./img/im1.jpg 200w"
-            sizes="(min-width: 992px) ,
-                    (max-width: 991px)"
-            src="./img/im1.jpg" class="card-img"  alt="...">
-            <!--
+    
+            <img src="./img/img.jpeg" class="card-img"  alt="..." id="meri-image">
+    <!--
             <picture>
-                <source media="(992px)" srcset="./img/img.jpeg" class="img-card">
-                <source media="(1px)" srcset="./img/im1.jpeg" class="img-card">
+                <source media="(max-width:992px)" srcset="./img/img.jpeg" class="img-card">
+                <source media="(min-width:991px)" srcset="./img/im1.jpeg" class="img-card">
+                <img src="./img/img.jpeg" alt="" class="img-card">
             </picture>
-            -->
+    -->
+
             <div class="card-img-overlay">
 
             <nav class="navbar navbar-expand-lg navbar-dark fixed-top col-12">
@@ -77,8 +75,8 @@
 
 
             <div class="my-auto">
-                <h1 class="card-title my-4 mx-2 font-weight-bold display-4">I am</h1>
-                <p class="card-text mx-2 font-weight-bold"><span class="typed" id="typed"></span></p>
+                <h1 class="card-title my-4 mx-2 font-weight-bold display-1">I am</h1>
+                <p class="card-text mx-2 font-weight-bold display-4"><span class="typed" id="typed"></span></p>
             </div>
               
             
