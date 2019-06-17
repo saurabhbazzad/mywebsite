@@ -45,7 +45,15 @@ a{
 
 
 
+.skills-div{
+    transition: 0.9s;
+    transition-timing-function: ease-in
+}
 
+.skills-div-2{
+    font-size: large;
+    line-height: 1.9rem;
+}
 
 
 

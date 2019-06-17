@@ -8,4 +8,12 @@ window.onload=function(){
         smartBackspace:true,
         callback:function(){}
     })
+
+
+    $('.skills-div').hover(function(){
+        $(this).addClass('bg-dark text-light')
+    },function(){
+        $(this).removeClass('bg-dark text-light')
+    })
+
 }
