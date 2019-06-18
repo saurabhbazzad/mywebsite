@@ -53,6 +53,9 @@ a{
     50% { opacity:0; }
     100% { opacity:1; }
 }
+#typed{
+
+}
 
 
 
@@ -106,4 +109,12 @@ a{
 }
 #conn-bg:hover{
     color:burlywood
+}
+
+
+#meri-image{
+    height:100vh
+}
+
+#typing-description{
 }
