@@ -21,6 +21,10 @@ a{
 }
 
 
+#about-me-content{
+    line-height: 12px;
+}
+
 
 
 .my-nav-bar-background{
@@ -34,7 +38,7 @@ a{
 }
 
 #top-nav-bar-ul{
-    border-bottom: 2px solid white
+    border-bottom: 2px solid rgb(197, 174, 174);
 }
 #top-nav-bar-ul li:hover{
     
