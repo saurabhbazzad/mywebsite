@@ -29,7 +29,12 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <!--/Typed.js-->
 
-    <link rel="shortcut icon" href="./icons/Paomedia-Small-N-Flat-File-code.ico" type="image/x-icon">
+    <!--For TimeLine-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' 
+    rel='stylesheet' type='text/css'>
+    <!--/For Timeline-->
+
+    <link rel="shortcut icon" href="./icons/boy.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="./js/script.js"></script>
 
@@ -100,7 +105,7 @@
     <!--About Me-->
     <div class="container-fluid bg-light text-dark">
         <div class="container text-center col-12 col-md-8 offset-md-2 about-me-content font-weight-bolder py-4">
-            <h1 class="display-4 py-4">About Me</h1>
+            <h1 class="display-4 py-4" id="about-me">About Me</h1>
             <p class="mx-md-4 mx-2 px-md-3 px-2 text-center">
                 From acing my High School Board exams and JEE and deciding to major in Manufacturing
                 Processes and Automation Enginnering from NSUT(formerly NSIT and DIT), one of India's
@@ -145,74 +150,164 @@
     </div>
     <!--/About Me-->
 
+    <!--Timeline-->
+    <h2 class="text-center my-5 py-2 text-dark" id="my-journey-so-far">My Journey So Far</h2>
+    <ul class="timeline">
+
+        <!-- Item 1 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">Born</span>
+                    <span class="time-wrapper"><span class="time">20th August 1997</span></span>
+                </div>
+                <div class="desc">In Rohtak, India.</div>
+            </div>
+        </li>
+      
+        <!-- Item 2 -->
+        <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Ryan International School</span>
+                    <span class="time-wrapper"><span class="time">2013</span></span>
+                </div>
+                <div class="desc">Completed Grade 10 with a CGPA of 9.0</div>
+            </div>
+        </li>
+    
+        <!-- Item 3 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">Ryan International School</span>
+                    <span class="time-wrapper"><span class="time">2015</span></span>
+                </div>
+                <div class="desc">Completed High School with Science(PCM). Scored an aggregate of 91.4% in CBSE board.</div>
+            </div>
+        </li>
+
+        <!-- Item 4 -->
+        <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Netaji Subhas Institute of Technology</span>
+                    <span class="time-wrapper"><span class="time">2016-2020</span></span>
+                </div>
+                <div class="desc">Persueing B.E in Manufacturing Processes and Automation Engineering.</div>
+            </div>
+        </li>
+
+        <!-- Item 5 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">HSBC</span>
+                    <span class="time-wrapper"><span class="time">July 2020</span></span>
+                </div>
+                <div class="desc">Incoming Software Developer at HSBC</div>
+            </div>
+        </li>
+
+        <!-- Item 6 -->
+        <li>
+            <div class="direction-l">
+                <div class="flag-wrapper">
+                    <span class="flag">Near Future</span>
+                    <span class="time-wrapper"><span class="time">2025</span></span>
+                </div>
+                <div class="desc">Working on cutting edge Artificial Intelligence solutions</div>
+            </div>
+        </li>
+
+        <!-- Item 7 -->
+        <li>
+            <div class="direction-r">
+                <div class="flag-wrapper">
+                    <span class="flag">Far Future</span>
+                    <span class="time-wrapper"><span class="time">2040</span></span>
+                </div>
+                <div class="desc">Competing with Elon Musk in Space Race</div>
+            </div>
+        </li>
+      
+    </ul>
+    
+    <!--/Timeline-->
 
     <!--Skills-->
     <div class="container-fluid text-dark bg-light">
-        <h2 class="text-center py-4">Amazing Things I Do</h2>
+        <h2 class="text-center py-5 my-5" id="my-skills">My Skills</h2>
         <div class="row" id="skills-container-div">
             <!--Client Side Div-->
-            <div class="col-12 col-md-5 skills-div skills-div-2 my-md-3 mx-5">
-                <div class="text-center my-4 skills-ico-cont">
-                    <span class="fas fa-desktop fa-5x"></span>
+            <div class="col-12 offset-md-1 col-md-5 skills-div skills-div-2 my-md-3">
+                <div class="text-center my-4">
+                    <picture>
+                        <img src="./icons/browser.svg" class="img-thumbnail mx-auto d-block my-4" alt="" id="flaticon-boy">
+                    </picture>
                 </div>
-                <h3 class="text-center text-uppercase my-4">Client Side</h3>
+                <h3 class="text-center text-uppercase my-4 skills-heading">Client Side</h3>
                 <p class="text-center">
                     <b>HTML </b><span>HTML | HTML 5 | Canvas | SVG</span>
                     <br>
-                    <b>CSS </b><span>CSS | CSS 3 | Bootstrap 3 | Bootstrap 4</span>
+                    <b>CSS </b><span>CSS | CSS 3 | Bootstrap 3 | Bootstrap 4 | Materialize</span>
                     <br>
-                    <b>JavaScript </b><span>ECMA 8 | jQuery | JQueryUI | HandlebarsJS |
-                        <br> EJS | AJAX</span>
+                    <b>JavaScript </b><span>ECMA 8 | jQuery | JQueryUI | HandlebarsJS | AJAX</span>
                     <br>
-                    <b>SPA </b><span>ReactJS | Redux |</span>
+                    <b>SPA </b><span>ReactJS | Redux </span>
                     
                 </p>
             </div>
 
             <!--Server Side Div-->
-            <div class="col-12 col-md-5 skills-div skills-div-2 my-md-3 mx-5">
+            <div class="col-12 col-md-5 skills-div skills-div-2 my-md-3">
                 <div class="text-center my-4">
-                    <span class="fas fa-server fa-5x"></span>
+                    <picture>
+                        <img src="./icons/server.svg" class="img-thumbnail mx-auto d-block my-4" alt="" id="flaticon-boy">
+                    </picture>
                 </div>
-                <h3 class="text-center text-uppercase my-4">Server Side</h3>
+                <h3 class="text-center text-uppercase my-4 skills-heading">Server Side</h3>
                 <p class="text-center">
                     <b>JavaScript </b><span>Node JS | ExpressJS | SocketIO | TypeScript</span>
                     <br>
                     <b>SQL </b><span>MySQL | SQLite | ORM-Sequelize</span>
                     <br>
-                    <b>NoSQL </b><span>MongoDB | RedisDB | ODM-Mongoose</span>
+                    <b>NoSQL </b><span>MongoDB | RedisDB | ODM-Mongoose | Neo4j</span>
                     <br>
-                    <b>Unit Testing </b><span>Mocha | Chai</span>
+                    <b>Unit Testing </b><span>Mocha | Chai | IstanbulJS</span>
                     <br>
-                    <b>Authentication </b><span>OAuth2 | JWT | JWE | PassportJS</span>
+                    <b>Authentication </b><span>OAuth 2.0 | JWT | JWE | PassportJS</span>
                     
                 </p>
             </div>
 
             <!--Artificial Intelligence Div-->
-            <div class="col-12 col-md-5 skills-div skills-div-2 my-md-3 mx-5">
+            <div class="col-12 offset-md-1 col-md-5 skills-div skills-div-2 my-md-3">
                 <div class="text-center my-4">
-                    <span class="fas fa-brain fa-5x my-4"></span>
+                    <picture>
+                        <img src="./icons/ai.svg" class="img-thumbnail mx-auto d-block my-4" alt="" id="flaticon-boy">
+                    </picture>
                 </div>
-                <h3 class="text-center text-uppercase my-4">Artificial Intelligence</h3>
+                <h3 class="text-center text-uppercase my-4 skills-heading">Artificial Intelligence</h3>
                 <p class="text-center">
                     <b>Data Handling </b><span>Numpy | Pandas | Scipy</span>
                     <br>
-                    <b>Data Visualization </b><span>Matplotlib | Plotly |
-                        <br> GGPlot2 | d3.js </span>
+                    <b>Data Visualization </b><span>Matplotlib |<wbr> Plotly | GGPlot2 | d3.js </span>
                     <br>
-                    <b>Data Scrapping </b><span> Beautiful Soup 4 | Scrapy</span>
+                    <b>Data Scrapping </b><span> Beautiful Soup 4</span>
                     <br>
                     <b>Machine Learning </b><span>Scikit Learn | Tensorflow | PyTorch | Keras</span>
                 </p>
             </div>
 
             <!--Miscellaneous Div-->
-            <div class="col-12 col-md-5 skills-div skills-div-2 my-md-3 mx-5">
+            <div class="col-12 col-md-5 skills-div skills-div-2 my-md-3">
                 <div class="text-center my-4">
-                    <span class="fas fa-robot fa-5x my-4"></span>
+                    <picture>
+                        <img src="./icons/robotic-arm.svg" class="img-thumbnail mx-auto d-block my-4" alt="" id="flaticon-boy">
+                    </picture>
                 </div>
-                <h3 class="text-center text-uppercase my-4">Miscellaneous</h3>
+                <h3 class="text-center text-uppercase my-4 skills-heading">Miscellaneous</h3>
                 <p class="text-center">
                     <b>Java </b><span>Java Core | Java Swing | Java FX | JDBC</span>
                     <br>
@@ -238,12 +333,12 @@
             <h1 class="text-center display-4 text-monospace">Connect With Me!</h1>
             <br>
             <p class="text-center">
-                <a href="https://www.instagram.com/homosapien.__init__"><span class="fab fa-instagram fa-2x mx-2" id="conn-ig"></span></a>
+                <a href="https://www.instagram.com/saurabhbazzad"><span class="fab fa-instagram fa-2x mx-2" id="conn-ig"></span></a>
                 <a href=""><span class="fab fa-facebook-f fa-2x mx-2" id="conn-fb"></span></a>
                 <a href=""><span class="fab fa-twitter fa-2x mx-2" id="conn-tw"></span></a>
-                <a href=""><span class="fab fa-linkedin-in fa-2x mx-2" id="conn-ln"></span></a>
+                <a href="https://www.linkedin.com/in/saurabh-singh-b60826156/"><span class="fab fa-linkedin-in fa-2x mx-2" id="conn-ln"></span></a>
                 <a href=""><span class="fab fa-youtube fa-2x mx-2" id="conn-yt"></span></a>
-                <a href="https://www.technym.com"><span class="fas fa-blog fa-2x mx-2" id="conn-bg"></span></a>
+                <a href="https://www.deeplearninguniversity.com"><span class="fas fa-blog fa-2x mx-2" id="conn-bg"></span></a>
             </p>
             <br>
             <br>
@@ -257,9 +352,17 @@
             </p>
         </div>    
         <p>
-            <div class="small text-right">
+            <div class="text-right" id="credits">
                 Icons made by 
                 <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> 
+                from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                <br>
+                Icons made by 
+                <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> 
+                from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                <br>
+                Icons made by 
+                <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a> 
                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
             </div>
         </p>     

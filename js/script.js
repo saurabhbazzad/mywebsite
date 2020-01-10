@@ -10,12 +10,6 @@ window.onload=function(){
     })
 
 
-    // $('.skills-ico-cont').hover(function(){
-    //     $(this).addClass('bg-dark text-light')
-    // },function(){
-    //     $(this).removeClass('bg-dark text-light')
-    // })
-
     preloaderFadeOutTime = 500;
         function hidePreloader() {
         $('.spinner-wrapper').fadeOut(preloaderFadeOutTime);
