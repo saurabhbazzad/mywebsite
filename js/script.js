@@ -1,6 +1,6 @@
 window.onload=function(){
     new Typed('#typed',{
-        strings:["Saurabh Singh Bazzad","Full Stack Developer","Coffee Lover","Pro Meme Maker","Ironman😅"],
+        strings:["Saurabh Singh Bazzad","Full Stack Developer", "Deep Learning Influencer😎","Coffee Lover","Pro Meme Maker","Ironman😅"],
         typeSpeed:100,
         backSpeed:50,
         backDelay:2000,
